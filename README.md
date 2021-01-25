@@ -12,7 +12,7 @@ Most versions are collected and uploaded automatically by a bot. However some ol
 
 ## Navigating the archive
 Operating systems are stored under the following conventions:
-<Company>/<Operating System Name>/<Version>/<x64-x86>/Company-OSName-Version-Bit.zip
+Company/Operating System Name/Version/x64-x86/Company-OSName-Version-Bit.zip
 If the OS is not produced by a corporation and is instead produced as an open source project, the company is ommited. Examples:
 - Microsoft/Windows 10/20H2/x64/Microsoft-Windows_10-20H2-x64.zip
 - Arch Linux/2020-01-01/x64/ArchLinux-2020_01_021-x64.zip
