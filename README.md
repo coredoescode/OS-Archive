@@ -19,7 +19,7 @@ If the OS is not produced by a corporation and is instead produced as an open so
 - Arch Linux/2020-01-01/x64/ArchLinux-2020_01_021-x64.json
 
 An operating system can be referenced under the following convention:
-<Company>.<Name>.<Version>.<Bitlevel>
+Company.Name.Version.Bitlevel
 Again, omit company if nessecary.
 Examples:
 - Microsoft.Windows10.20H2.x64
