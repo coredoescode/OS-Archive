@@ -12,18 +12,27 @@ In short, this repository contains:
 Most versions are collected and uploaded automatically by a bot. However some older operating systems are uploaded automatically.
 
 ## Navigating the archive
-Operating systems are stored under the following conventions:
-Company/Operating System Name/Version/x64-x86/Company-OSName-Version-Bit.json
-If the OS is not produced by a corporation and is instead produced as an open source project, the company is ommited. Examples:
-- Microsoft/Windows 10/20H2/x64/Microsoft-Windows_10-20H2-x64.json
-- Arch Linux/2020-01-01/x64/ArchLinux-2020_01_021-x64.json
-
-An operating system can be referenced under the following convention:
-Company.Name.Version.Bitlevel
-Again, omit company if nessecary.
+Due to the GitHub file limit, **all** files are stored on an external host (cdn.coresdev.ml), and this repository provides information to access them.
+In the /archive/ folder, you will find several JSON files. All of these follow a strict naming convention:
+```
+Company.OS-NAME.Version.Bitlevel.json
+```
 Examples:
 - Microsoft.Windows10.20H2.x64
 - ArchLinux.2020-01-01.x64
+
+These JSON files are formatted as follows:
+```
+{
+  "format": "OS-Archive Archival File Format 1.0",
+  "compression": "zip",
+  "url": "https://cdn.coresdev.ml/os-archive/microsoft.msdos.1-01.zip"
+}
+```
+
+The automated download script uses these identifiers, for example, if you tell it to download Microsoft.Windows10.20H2.x86-64, it would attempt to retrieve the /archive/Microsoft.Windows10.20H2.x86-64.json file from this repository.
+
+If an operating system is created as an OPEN SOURCE PROJECT (ex. Arch Linux), the company is ommited.
 
 Please note that some older operating systems require a certain OEM motherboard to work. Compaq images are provided in this repository.
 
