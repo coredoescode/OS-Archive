@@ -1,6 +1,8 @@
 # OS-Archive
 An archive of operating system versions.
 
+## Want to add an operating system? Create an ISSUE!
+
 ## This is an automated collection of operating systems.
 In short, this repository contains:
 - Most popular linux distros (an effort is underway to get ALL of them)
