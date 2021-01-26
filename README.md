@@ -7,6 +7,7 @@ In short, this repository contains:
 - All windows versions
 - All Windows 10 Versions
 - Some original OEM DOS versions
+- OS/2 and other early operating systems
 
 Most versions are collected and uploaded automatically by a bot. However some older operating systems are uploaded automatically.
 
@@ -35,3 +36,29 @@ Please note that some older operating systems require a certain OEM motherboard 
 - MS-DOS 6.01
 - MS-DOS 6.22
 - MS-DOS 7.10
+- OS/2 1.00
+- OS/2 1.30
+- OS/2 2.0
+- OS/2 2.1
+- OS/2 Warp 3.0
+- OS/2 Warp 4.0
+- OS/2 Warp 4.52
+- eComStation 2.1
+- Windows 1.01
+- Windows 2.03
+- Windows NT 3.1
+- Windows 95
+- Windows NT 4.0
+- Windows 98
+- Windows 2000
+- Windows ME
+- Windows XP (x86-64)
+- Windows Vista (x86-64)
+- Windows 7 (x86-64)
+- Windows 8.1 (x86-64)
+- Aero 10 LTSB (x64)
+- Windows 10 (1803, x86-64)
+- Windows 10 (1809, x86-64)
+- Windows 10 (1903, x86-64)
+- Windows 10 (1909, x86-64)
+- Windows 10 (2004, x86-64)
